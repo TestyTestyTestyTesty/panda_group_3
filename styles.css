@@ -1,0 +1,19 @@
+.gif-container{
+    display:flex;
+    flex-direction:column-reverse;
+    margin:0 auto;
+}
+.gif-container img{
+    align-self:center;
+}
+.gif-container button{
+    align-self:center;
+    padding:5px 20px;
+    background: white;
+    border:3px solid black;
+    margin:20px;
+    text-transform:uppercase;   
+}
+.gif-container button:hover{
+    cursor:pointer;
+}
